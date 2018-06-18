@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulários</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/search" method="get">
+      <fieldset>
+        <legend><strong>Pesquisa no Google 1</strong></legend>
+        <input type="text" name="q" value="" placeholder="Digite aqui a pesquisa" >
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpar">
+      </fieldset>
+    </form>
+    <br>
+    <form action="https://www.google.com/search" method="get">
+      <fieldset>
+        <legend><strong>Pesquisa no Google 2</strong></legend>
+        <input type="text" name="q" value="" placeholder="Digite aqui a pesquisa" autofocus required>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpar">
+      </fieldset>
+    </form>
+    <br>
+    <form action="https://www.google.com/search" method="get">
+      <fieldset>
+        <legend><strong>Pesquisa no Google 3</strong></legend>
+        <input type="text" name="q" value="" placeholder="Digite aqui a pesquisa" size="20" maxlength="10">
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpar">
+      </fieldset>
+    </form>
+    <br>
+    <form action="https://www.google.com/search" method="get">
+      <fieldset>
+        <legend><strong><strong>Pesquisa no Google 4</strong></strong></legend>
+        <input type="text" list="country" name="q" value="" placeholder="Lista de países">
+        <datalist id="country">
+            <option value="Afeganistao">
+            <option value="Albania">
+            <option value="Algeria">
+            <option value="Andorra">
+            <option value="Angola">
+        </datalist>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpar">
+      </fieldset>
+    </form>
+    <br>
+    <form  action="" method="">
+        <fieldset>
+          <legend><strong>Você deseja trabalhar como Webmaster?</strong></legend>
+          <input type="radio" name="grupo1" value="Sim">Sim
+          <input type="radio" name="grupo1" value="Não">Não
+          <input type="radio" name="grupo1" value="Talvez">Talvez
+          <input type="radio" name="grupo1" value="Quem sabe">Quem sabe
+          <br><br>
+          <input type="submit" name="Enviar" value="Enviar">
+          <input type="reset" name="Limpar" value="Limpar">
+        </fieldset>
+    </form>
+    <br>
+    <form  action="" method="">
+        <fieldset>
+          <legend><strong>O que você deseja aprender?</strong></legend>
+          <input type="checkbox" name="grupo1" value="HTML">HTML
+          <input type="checkbox" name="grupo1" value="CSS">CSS
+          <input type="checkbox" name="grupo1" value="JavaScript">JavaScript
+          <input type="checkbox" name="grupo1" value="PHP">PHP
+          <br><br>
+          <input type="submit" name="Enviar" value="Enviar">
+          <input type="reset" name="Limpar" value="Limpar">
+        </fieldset>
+    </form>
+    <br>
+    <form action="" method="">
+      <fieldset>
+        <legend><strong>Seleções 1</strong></legend>
+        <select name="nomeMenu">
+          <optgroup label="Linguagens para Web">
+            <option value="valor1">HTML</option>
+            <option value="valor2">CSS</option>
+            <option value="valor3">JavaScript</option>
+          </optgroup>
+          <optgroup label="Linguagens para Desktop">
+            <option value="valor1">C++</option>
+            <option value="valor2">Java</option>
+            <option value="valor3">C</option>
+          </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpa">
+      </fieldset>
+    </form>
+    <br>
+    <form action="" method="">
+      <fieldset>
+        <legend><strong>Seleções 2</strong></legend>
+        <select name="nomeMenu" size="10">
+          <optgroup label="Linguagens para Web">
+            <option value="valor1">HTML</option>
+            <option value="valor2">CSS</option>
+            <option value="valor3">JavaScript</option>
+          </optgroup>
+          <optgroup label="Linguagens para Desktop">
+            <option value="valor1">C++</option>
+            <option value="valor2">Java</option>
+            <option value="valor3">C</option>
+          </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpa">
+      </fieldset>
+    </form>
+    <br>
+    <form  action="" method="">
+      <fieldset>
+        <legend><strong>Seleções 3</strong></legend>
+        <select name="nomeMenu" size="10" multiple>
+          <optgroup label="Linguagens para Web">
+            <option value="valor1">HTML</option>
+            <option value="valor2">CSS</option>
+            <option value="valor3">JavaScript</option>
+          </optgroup>
+          <optgroup label="Linguagens para Desktop">
+            <option value="valor1">C++</option>
+            <option value="valor2">Java</option>
+            <option value="valor3">C</option>
+          </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpa">
+      </fieldset>
+    </form>
+    <br>
+    <form action="" method="">
+      <fieldset>
+        <legend><strong>Area de texto</strong></legend>
+        <textarea name="name" rows="8" cols="50" readonly>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </textarea>
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpa">
+      </fieldset>
+    </form>
+    <br>
+    <form action="" method="">
+      <fieldset>
+        <legend><strong>Arquivo</strong></legend>
+        <input type="file" name="" value="">
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpa">
+      </fieldset>
+    </form>
+    <br>
+    <form action="" method="">
+      <fieldset>
+        <legend><strong>Informações Pessoais</strong></legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" value="" pattern="(?=.*\d)(?=.*[a-z](?=.*[A-Z]).{8,}">
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" value="">
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+        <input type="reset" name="Limpar" value="Limpa">
+      </fieldset>
+    </form>
+  </body>
+</html>
