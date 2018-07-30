@@ -1,0 +1,154 @@
+html{
+  font-family: sans-serif;
+  color: #323232;
+}
+
+#btn-uk{
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-top: 85px;
+}
+
+header img{
+  width: 230px;
+  height: 120px;
+}
+
+#nav-top{
+  background-color: #323232;
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+#nav-top ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+#nav-top ul li{
+    display: inline;
+    padding-left: 30px ;
+    padding-right: 30px;
+}
+
+#nav-top ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #909090;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nav-top ul li a:hover{
+  background-image: linear-gradient(#00A0DE, white);
+  color: black;
+}
+
+#nav-top ul li a:focus{
+  background-image: linear-gradient(#00A0DE, white);
+  color: black;
+}
+
+section{
+  padding-top: 8px;
+  margin-left: 20% ;
+  margin-right: 20%;
+}
+
+section h1{
+  border-bottom: 2px solid black;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  font-size: 2.0em;
+  font-weight: bold;
+  color: #323232;
+}
+
+section p{
+  text-align:center;
+  font-size: 1.2em;
+}
+
+section form{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+legend{
+  font-weight: bold;
+}
+
+fieldset{
+  border-color: #0019c4;
+}
+
+.btn-input{
+background-color: #001c44;
+color: white;
+border: 0px;
+font-weight: bold;
+padding: 5px;
+}
+
+.btn-input:hover{
+  background-color: #0069ff;
+  color: black;
+  border: 0px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.btn-input:focus{
+  background-color: #0069ff;
+  color: black;
+  border: 0px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+footer{
+  border-top: 5px solid #cbc4c4;
+  clear: both;
+  background-color: #999999;
+  text-align: center;
+  margin-top: 30px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left:0;
+}
+
+footer nav ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+footer nav ul li{
+    display: inline;
+    padding-left: 30px ;
+    padding-right: 30px;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #201f1f;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer nav ul li a:hover{
+  background-image: linear-gradient(#00A0DE, white);
+}
+
+footer nav ul li a:focus{
+  background-image: linear-gradient(#00A0DE, white);
+}

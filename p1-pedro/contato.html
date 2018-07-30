@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Contato</title>
+    <link rel="stylesheet" href="contato-style.css">
     <meta name="keywords" content="P1,HTML5,prova,BSI,Hipermídias">
     <meta name="description" content="Página contato da P1 do 4º período da disciplina de Hipermídias do curso Bacharelado em Sistemas de Informação">
     <meta name="author" content="Pedro Ferreira">
   </head>
   <body>
     <header>
-      <a href="#"><img src="#" alt="slogan da empresa"></a>
-      <img src="#" alt="idioma inglês">
+      <a href=home.html><img src="images/logo.png" alt="logomarca da empresa"></a>
+      <a href="#"><img id="btn-uk" src="images/uk.png" alt="trocar para idioma inglês"></a>
     </header>
-    <nav>
+    <nav id="nav-top">
       <ul>
         <li><a href="home.html">Home</a></li>
         <li><a href="sobre.html">Sobre</a></li>
@@ -29,11 +30,11 @@
        <fieldset>
          <legend>Dados para preencher</legend>
          <label for="nome">Nome:</label>
-         <input type="text" id="nome" placeholder="Digite seu nome">
+         <input type="text" id="nome" placeholder="Digite seu nome"><br><br>
          <label for="email">E-mail:</label>
-         <input type="email" id="email" placeholder="Digite seu e-mail">
+         <input type="email" id="email" placeholder="Digite seu e-mail"><br><br>
          <label for="profissao">Profissão:</label>
-         <input type="text" id="profissao" placeholder="Digite sua profissão">
+         <input type="text" id="profissao" placeholder="Digite sua profissão"><br><br>
          <label for="telefone">Telefone:</label>
          <input type="tel" id="telefone" placeholder="Digite seu telefone">
          <br><br>
@@ -42,8 +43,8 @@
          <textarea id="comentario" rows="8" cols="50">
         </textarea>
          <br><br>
-         <input type="submit" name="enviar" value="Enviar">
-         <input type="reset" name="limpar" value="Limpar">
+         <input class="btn-input" type="submit" name="enviar" value="Enviar">
+         <input class="btn-input" type="reset" name="limpar" value="Limpar">
        </fieldset>
      </form>
     </section>
