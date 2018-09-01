@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Reserva de Hotel - P2 Hipermídias</title>
+  </head>
+  <body>
+    <h1>Faça sua reserva no Hotel JavaScript</h1>
+    <form id="form" name="form" action="" method="post">
+      <fieldset>
+        <legend>Dados para Reserva</legend>
+        <p><strong>*Valor da diária por quarto: <ins>R$ 149,00</ins></strong></p>
+        <p><strong>*Cada hóspede adicional custa <ins>R$ 60,00 a mais por noite</ins></strong></p>
+        <p><strong>*Máximo de hóspedes por quarto: 4</strong></p>
+        <br><br>
+        <label for="nome">Nome:</label>
+        <input id="nome" name="Nome" type="text" placeholder="Informe seu nome" required size="80">
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input id="email" name="email" type="email" value="" required placeholder="Informe seu e-mail" size="60">
+        <br><br>
+        <label for="email2">Confirmação de E-mail:</label>
+        <input id="email2" name="email2" type="email" value="" required placeholder="Repita seu e-mail" size="45">
+        <br><br>
+        <label for="chegada">Data Chegada:</label>
+        <input id="chegada" name="chegada" type="date" value="" required>
+        <br><br>
+        <label for="saida">Data Saída:</label>
+        <input id="saida" name="saida" type="date" value="" required>
+        <br><br>
+        <label for="quarto">Quantidade de Quartos:</label>
+        <input id="quarto" name="quarto" type="number" value="" required>
+        <br><br>
+        <label for="hospedes">Número de hóspedes <em>(por quarto)</em> :</label>
+        <input id="hospedes" name="hospedes" type="number" value="" required max="4">
+      </fieldset>
+      <br>
+      <input id="send" type="submit" name="Enviar" value="Enviar">
+      <input id="apagar" type="reset" name="Limpar" value="Limpar">
+    </form>
+  </body>
+  <script type="text/javascript" src="p2pedro.js"></script>
+</html>
